@@ -12,7 +12,11 @@ dependencies {
 }
 
 repositories {
-    mavenCentral()
+maven {
+
+url 'http://www.nexus.ford.com/content/groups/public'  
+
+}
 }
 
 test {
